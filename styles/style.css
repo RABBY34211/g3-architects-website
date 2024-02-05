@@ -192,6 +192,33 @@
 
     }
 
+    /* Sponspors related styles */
+    .Sponspors{
+      text-align: center;
+      margin-top: 100px;
+    }
+    .Sponspors-img-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 40px;
+    }
+    .Sponspors-title{
+      color: rgb(19, 19, 19);      
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 53px;
+
+    }
+    .Sponspors-description{
+      color: rgb(114, 114, 114);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      margin-top: 20px;
+
+    }
+
     
 
 
@@ -247,7 +274,7 @@
   /* for team section */
   /* for mobile device */
   @media screen and (max-width: 576px) {
-    .teams-container {
+    .teams-container , .Sponspors-img-container {
 
     flex-direction: column;
     }
@@ -276,6 +303,10 @@
     flex-direction: column;
     
   }
+  .Sponspors-img-container{
+    gap: 40px;
+    align-items: center;
+  }
   
   
 
@@ -302,6 +333,11 @@
 
     .teams-img-container{
       grid-template-columns: repeat(1,1fr);
+    }
+    .Sponspors-img-container{
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
     }
 
 

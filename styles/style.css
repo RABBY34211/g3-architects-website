@@ -219,6 +219,83 @@
 
     }
 
+    /* feature section style */
+    .features{
+      display: flex;
+      margin-top: 100px;
+      gap: 50px;
+      
+    }
+    .feature-title{
+      color: rgb(19, 19, 19);
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 53px;
+      margin-bottom: 20px;
+      border-left: 10px solid rgb(255, 144, 14);
+      padding-left: 15px;
+
+    }
+    .feature-description , .feature-card-description {
+      color: rgb(114, 114, 114);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+
+    }
+    .feature-card-title{
+      color: rgb(19, 19, 19);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 23px;
+
+    }
+    .feature-card {
+      margin-top: 40px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+      background: rgb(255, 255, 255);
+      padding: 10px;
+
+    }
+   .ten-years-badge{
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    width: 302px;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    padding-top: 20px;
+    position: relative;
+    bottom: 100px;
+   }
+   .ten-years-badge > h2{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 4rem;
+
+
+   }
+   .ten-years-badge > p{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1.5rem;
+
+   }
+   .feature-img{
+    width: 1100px;
+    height: 1000px;
+    
+   }
+   .feature-img img{
+    width: 100%;
+    height: 60%;
+    margin-left: 40px;
+
+   }
+    
+
     
 
 
@@ -299,7 +376,7 @@
       margin-bottom: 80px;
       
   }
-  .fact-card-container{
+  .fact-card-container {
     flex-direction: column;
     
   }
@@ -307,7 +384,34 @@
     gap: 40px;
     align-items: center;
   }
-  
+
+  .features{
+    flex-direction: column;
+    
+  }
+  .feature-img{
+    width: 250px;
+    height: 300px;
+    
+   }
+   .feature-img img{
+    width: 100%;
+    height: 60%;
+    
+
+   }
+   .ten-years-badge{
+   
+    max-width: 90%;
+    
+    margin-left: 0;
+    position: relative;
+    top: 30px;
+    margin-bottom: 20px;
+    
+   
+    
+    
   
 
 
